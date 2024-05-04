@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.envatoHeader {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #262626;
+  width: 1392px;
+  height: 54px;
+  color: #545454;
+  box-shadow: 0 1px 0 rgb(0, 0, 0);
+  /* position: fixed; */
+}
+.envatoHeader img {
+  width: 152px;
+  height: 18px;
+}
+.envatoHeader a {
+  color: #fff;
+  text-decoration: none;
+}
+.envatoHeader .left {
+  margin-left: 20px;
+}
+.envatoHeader .left .envatoMarket {
+  color: #262626;
+  cursor: default;
+}
+.envatoHeader .right {
+  display: inline-block;
+  padding: 0 20px;
+  background-color: #82b440;
+  width: 94px;
+  height: 31px;
+  font-size: 14px;
+  padding: 5px 20px;
+  line-height: 1.5;
+  display: inline-block;
+  margin-right: 40px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 0 #6f9a37;
+}
+
+#Header-sticky {
+  background-color: #EDEEF3;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+#Header-sticky .header-left {
+  width: 100%;
+  height: 97px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+#Header-sticky .header-left .logo img {
+  width: 100%;
+  height: 100%;
+}
+#Header-sticky .header-left .hr {
+  color: #C9CCD4;
+  border: 0.8px solid #C9CCD4;
+  height: 40px;
+}
+#Header-sticky .header-right {
+  /*  width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Header-sticky .header-right .links {
+  display: flex;
+  align-items: center;
+}
+#Header-sticky .header-right .links ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+#Header-sticky .header-right .links ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#Header-sticky .header-right .links ul li i {
+  font-size: 10px;
+  margin-right: 20px;
+}
+#Header-sticky .header-right .links ul li a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0e1133;
+  padding: 35px 0;
+  text-transform: capitalize;
+}
+#Header-sticky .header-right form {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
