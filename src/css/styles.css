@@ -64,11 +64,61 @@
 #Header-sticky .header-left .logo img {
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 #Header-sticky .header-left .hr {
   color: #C9CCD4;
   border: 0.8px solid #C9CCD4;
   height: 40px;
+}
+#Header-sticky .header-left .category:hover {
+  color: #0d6efd;
+  transition: 0.6s all;
+}
+#Header-sticky .header-left .category:hover .cat-submenu {
+  opacity: 1;
+  visibility: visible;
+  background-color: #fff;
+  width: 200px;
+  padding: 17px 0 15px;
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(8, 0, 42, 0.0784313725);
+  border-radius: 4px;
+  /* text-align: center; */
+  color: #C9CCD4;
+  transition: all 0.6s;
+}
+#Header-sticky .header-left .category span h6 {
+  padding-left: 14px;
+  line-height: 1;
+  display: inline-block;
+  padding-top: 3px;
+  color: black;
+  cursor: pointer;
+  margin-top: 140px;
+}
+#Header-sticky .header-left .category span h6:hover {
+  color: #0d6efd;
+  transition: 0.6s all;
+}
+#Header-sticky .header-left .category ul {
+  opacity: 0;
+  visibility: hidden;
+  text-decoration: none;
+  list-style: none;
+}
+#Header-sticky .header-left .category ul li {
+  text-decoration: none;
+  color: #EDEEF3;
+}
+#Header-sticky .header-left .category ul li a {
+  text-decoration: none;
+  color: black;
+  margin-left: 30px;
+}
+#Header-sticky .header-left .category ul li a:hover {
+  color: #2b4eff;
+  transition: 0.4s all;
 }
 #Header-sticky .header-right {
   /*  width: 100%; */
@@ -79,16 +129,24 @@
 #Header-sticky .header-right .links {
   display: flex;
   align-items: center;
+  margin-right: 30px;
+  margin-top: 10px;
 }
 #Header-sticky .header-right .links ul {
   display: flex;
   align-items: center;
   list-style: none;
+  margin-right: 15px;
 }
 #Header-sticky .header-right .links ul li {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
+  text-align: center;
+}
+#Header-sticky .header-right .links ul li:hover {
+  color: #2b4eff;
+  transition: 0.6s all;
 }
 #Header-sticky .header-right .links ul li i {
   font-size: 10px;
@@ -103,7 +161,64 @@
   padding: 35px 0;
   text-transform: capitalize;
 }
+#Header-sticky .header-right .links ul li a:hover {
+  color: #2b4eff;
+  transition: 0.6s all;
+}
 #Header-sticky .header-right form {
   display: flex;
   align-items: center;
+  position: relative;
+}
+#Header-sticky .header-right form .header-cart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Header-sticky .header-right form i {
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#Header-sticky .header-right form input {
+  width: 280px;
+  height: 55px;
+  line-height: 20px;
+  border-radius: 4px;
+  background: #ffffff;
+  outline: none;
+  border: 1px solid #ffffff;
+  font-size: 14px;
+  padding: 25px 65px 20px 55px;
+  margin-right: 15px;
+}
+#Header-sticky .header-right button {
+  width: 127px;
+  height: 50px;
+  display: inline-block;
+  height: 50px;
+  line-height: 52px;
+  text-align: center;
+  padding: 0 25px;
+  color: #fff;
+  background: #2b4eff;
+  border-radius: 4px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+#Header-sticky .header-right button:hover {
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(4, 23, 118, 0.3019607843);
+  transition: 0.6s all;
+}
+#Header-sticky .header-right button a {
+  width: 100%;
+  overflow: hidden;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
 }/*# sourceMappingURL=styles.css.map */
